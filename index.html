@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TEJ Application Project</title>
     <link rel="stylesheet" href="/css/index.css" />
-    
   </head>
   <style></style>
 
@@ -20,30 +19,33 @@
               <label for="">somosa Price</label>
             </div>
             <div>
+              <span>Price: </span>
               <input type="text" id="inputprice" />
             </div>
             <div id="counter-field">
+              <span>Quantity: </span>
               <button type="button" id="left-button">-</button>
               <div id="counter-container">0</div>
               <button type="button" id="right-button">+</button>
             </div>
-            <div>total: <span id="total-somosa"></span></div>
+            <div>Total: <span id="total-somosa"></span></div>
           </div>
           <hr />
         </div>
         <div class="div_center">
           <div>
             <div style="margin-top: 10px">
-              <label for="">tea price</label>
+              <label for="">Tea price</label>
             </div>
-
+            <span>Price: </span>
             <input type="text" id="inputpricetea" />
             <div id="tea-field" style="margin-top: 20px; display: flex">
+              <span>Quantity: </span>
               <button type="button" id="left-button-tea">-</button>
               <div id="tea-counter-container">0</div>
               <button type="button" id="right-button-tea">+</button>
             </div>
-            total: <span id="total-tea"></span> <br />
+            Total: <span id="total-tea"></span> <br />
           </div>
         </div>
         <hr />
@@ -51,14 +53,15 @@
         <div class="div_center">
           <div>
             <div style="margin-top: 50px">
-              total: <span id="total-without-tax"></span>
+              Total Price: <span id="total-without-tax"></span>
 
               <div style="margin-top: 20px">
-                vat(13%): <span id="vat"></span> <br />
-                tip(10%): <span id="tip"></span>
+                Vat(13%): <span id="vat"></span> <br />
+                Tip(10%): <span id="tip"></span>
               </div>
-
-              Grand-Total: <button id="grand-total">Grand Total</button>
+              Grand Total: <span id="totalShow"></span>
+              <br />
+              <button id="grand-total">Calculate Grand Total</button>
             </div>
           </div>
         </div>
