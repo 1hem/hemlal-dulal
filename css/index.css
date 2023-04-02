@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+label {
+  text-align: center;
+  text-transform: capitalize;
+  margin-left: 50px;
+  width: 100%;
+  margin-top: 10px;
+}
+main {
+  background-color: #19a7ce;
+  padding: 10px 10px;
+}
+#counter-field,
+#tea-field {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.div_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
